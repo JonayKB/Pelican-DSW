@@ -1,7 +1,7 @@
 Title: NekoSoft
 Save_as: index.html
 URL: index.html
-Cover: images/cover.jpg
+Cover: images/cover.png
 Subtitle: Innovación, tecnología y desarrollo a medida
 Order:1
 
