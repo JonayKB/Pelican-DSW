@@ -1,6 +1,6 @@
 AUTHOR = 'Carla, Jonay'
-SITENAME = 'tei3'
-SITEURL = ""
+SITENAME = 'NekoSoft'
+SITEURL = "localhost:8000"
 
 PATH = "content"
 
@@ -31,7 +31,25 @@ SOCIAL = (
 
 RELATIVE_URLS = True
 
+
+ARTICLE_PATHS = []
+PAGE_PATHS = ['.']
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+
+
+THEME = 'attila-2.0'
+
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/custom.css'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
+CUSTOM_CSS = 'static/custom.css'
+
+
+
+
+PLUGINS = []

@@ -1,0 +1,155 @@
+.navbar, header nav {
+  background-color: #ffffffcc;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #eee;
+  padding: 0.7rem 2rem;
+}
+
+.navbar a, header nav a {
+  color: #333 !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  margin: 0 1rem;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover, header nav a:hover {
+  color: #0077cc !important;
+}
+
+
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #0077cc;
+  padding-left: 0.75rem;
+}
+
+.paquetes {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.paquete {
+  flex: 1 1 30%;
+  background: var(--card-bg, #fff);
+  color: var(--text-color, #222);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.paquete:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.paquete h3 {
+  color: var(--accent-color, #0077cc);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.paquete p {
+  color: var(--text-muted, #555);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.paquete ul {
+  list-style: none;
+  padding: 0;
+}
+
+.paquete ul li {
+  padding: 0.4rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.paquete ul li::before {
+  content: "✓";
+  color: var(--accent-color, #0077cc);
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+}
+
+html.theme-light {
+  --card-bg: #ffffff;
+  --text-color: #222;
+  --text-muted: #555;
+  --accent-color: #0077cc;
+}
+
+html.theme-light .paquete {
+  background: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+html.theme-light .paquete:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+html.theme-dark {
+  --card-bg: #1e1f23;
+  --text-color: #e4e4e4;
+  --text-muted: #aaa;
+  --accent-color: #4da3ff;
+}
+
+html.theme-dark .paquete {
+  background: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.05);
+}
+
+html.theme-dark .paquete:hover {
+  box-shadow: 0 6px 14px rgba(255, 255, 255, 0.1);
+}
+
+html.theme-dark .paquete ul li::before {
+  color: var(--accent-color);
+}
+
+.sobre-nosotros {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contacto {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.contacto p {
+  font-size: 1.1rem;
+}
+
+.contacto a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  padding: 2rem 0;
+  background-color: #f0f3f6;
+  border-top: 1px solid #ddd;
+}
