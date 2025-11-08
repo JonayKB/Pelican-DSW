@@ -44,10 +44,10 @@ THEME = 'attila-2.0'
 
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
-    'extra/custom.css': {'path': 'static/custom.css'},
-    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/custom.css': {'path': 'Pelican-DSW/static/custom.css'},
+    'extra/favicon.ico': {'path': 'Pelican-DSW/favicon.ico'},
 }
-CUSTOM_CSS = 'static/custom.css'
+CUSTOM_CSS = 'Pelican-DSW/static/custom.css'
 
 
 
