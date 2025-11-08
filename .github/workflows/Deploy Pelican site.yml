@@ -1,0 +1,34 @@
+name: Deploy Pelican site
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          cd tei3
+          pip install pelican markdown ghp-import
+
+      - name: Build Pelican site
+        run: |
+          cd tei3
+          pelican content
+
+      - name: Deploy to gh-pages
+        run: |
+          cd tei3
+          ghp-import output -b gh-pages
+          git push origin gh-pages --force
