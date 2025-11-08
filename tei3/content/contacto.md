@@ -15,4 +15,4 @@ Order:4
 ---
 
 O, si lo prefieres, envíanos un mensaje directo a través de nuestras redes o agenda una reunión personalizada.
-<link rel="stylesheet" href="Pelican-DSW/static/custom.css">
+<link rel="stylesheet" href="static/custom.css">
