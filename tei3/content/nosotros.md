@@ -15,5 +15,5 @@ Nuestro equipo combina experiencia en desarrollo, diseño y estrategia digital p
 - Atención personalizada
 - Transparencia y compromiso
 - Soluciones escalables y seguras
-- 
-<link rel="stylesheet" href="/static/custom.css">
+  
+<link rel="stylesheet" href="static/custom.css">
