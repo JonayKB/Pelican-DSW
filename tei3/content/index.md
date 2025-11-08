@@ -9,7 +9,7 @@ Order:1
 
 En **NekoSoft** ayudamos a pequeñas y medianas empresas a digitalizar sus procesos mediante soluciones modernas y escalables.
 
-Nuestra misión es ofrecer tecnología práctica, estética y segura para potenciar tu negocio.
+Nuestra misión es ofrecer tecnología práctica, estética y segura para potenciar tu negocio y mantenerte al día de la tecnología.
 
 <div class="presentacion">
 
