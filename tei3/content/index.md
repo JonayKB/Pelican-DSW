@@ -32,4 +32,4 @@ Nuestra misión es ofrecer tecnología práctica, estética y segura para potenc
 </div>
 
 </div>
-<link rel="stylesheet" href="Pelican-DSW/static/custom.css">
+<link rel="stylesheet" href="static/custom.css">
