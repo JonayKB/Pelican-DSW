@@ -49,7 +49,4 @@ EXTRA_PATH_METADATA = {
 }
 CUSTOM_CSS = 'static/custom.css'
 
-
-
-
 PLUGINS = []
